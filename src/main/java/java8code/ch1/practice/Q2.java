@@ -18,11 +18,9 @@ public class Q2 {
 
     private static List<File> recursiveDirLists(File file) {
         List<File> dirNames = new ArrayList<>();
-        Stream.of(file.listFiles()).forEach(f -> {
-            if (f.isDirectory()) {
-                dirNames.add(f);
-                dirNames.addAll(recursiveDirLists(f));
-            }
+        Stream.of(file.listFiles(f -> f.isDirectory())).forEach(f -> {
+            dirNames.add(f);
+            dirNames.addAll(recursiveDirLists(f));
         });
         return dirNames;
     }
