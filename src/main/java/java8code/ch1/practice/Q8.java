@@ -7,12 +7,14 @@ import java.util.List;
  * Created by futeshi on 2015/10/21.
  */
 public class Q8 {
+
     public static void main(String[] args) {
         String[] names = {"Peter", "Paul", "Mary"};
         List<Runnable> runners = new ArrayList<>();
         for (String name : names) {
             runners.add(() -> System.out.println(name));
         }
+
         runners.stream().forEach(r -> new Thread(r).start());
 
         List<Runnable> runners2 = new ArrayList<>();
