@@ -25,13 +25,21 @@ public class Q1 {
         List<String> words = Arrays.asList(contents.split("[\\P{L}]+"));
         int counter = 0;
         while (counter < words.size()) {
+<<<<<<< Updated upstream
             List<Thread> threads = IntStream.range(0, 10).boxed().map(i -> {
+=======
+            List<Thread> threads = IntStream.range(0, 5).boxed().map(i -> {
+>>>>>>> Stashed changes
                 return new Thread(() -> {
                     if (words.get(i).length() >= 5) count();
                 });
             }).collect(Collectors.toList());
             threads.stream().forEach(t -> t.start());
+<<<<<<< Updated upstream
             counter += 10;
+=======
+            counter += 5;
+>>>>>>> Stashed changes
         }
 
         System.out.println(count);
