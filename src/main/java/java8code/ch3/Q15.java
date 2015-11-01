@@ -67,6 +67,12 @@ public class Q15 extends Application {
                     }
                 });
             }
+            pool.shutdown();
+            try {
+                pool.awaitTermination(1, TimeUnit.MINUTES);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             return out;
         }
 
