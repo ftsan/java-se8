@@ -53,7 +53,7 @@ public class Q5 extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(imageView);
 
-        Scene scene = new Scene(root, 800, 800);
+        Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Hello world.");
         stage.show();
