@@ -13,7 +13,7 @@ import java.io.File;
 import java.io.FileInputStream;
 
 /**
- * Created by futeshi on 2015/10/27.
+ * Created by ftsan on 2015/10/27.
  */
 public class Q5 extends Application {
     public static Image transform(Image in, ColorTransformer transformer) {

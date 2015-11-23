@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 import java.util.function.Function;
 
 /**
- * Created by futeshi on 2015/11/03.
+ * Created by ftsan on 2015/11/03.
  */
 public class Q21 {
     public static <T, U> Future<U> map(Future<T> future, Function<T, U> f) {

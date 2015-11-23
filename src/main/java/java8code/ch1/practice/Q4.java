@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.Arrays;
 
 /**
- * Created by futeshi on 2015/10/21.
+ * Created by ftsan on 2015/10/21.
  */
 public class Q4 {
     public static void main(String[] args) {

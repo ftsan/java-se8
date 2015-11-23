@@ -3,7 +3,7 @@ package java8code.ch2.practice;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/24.
+ * Created by ftsan on 2015/10/24.
  */
 public class Q2 {
     public static void main(String[] args) {

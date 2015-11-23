@@ -1,7 +1,7 @@
 package java8code.ch1;
 
 /**
- * Created by futeshi on 2015/10/21.
+ * Created by ftsan on 2015/10/21.
  */
 public class Student extends Person implements Named {
     @Override

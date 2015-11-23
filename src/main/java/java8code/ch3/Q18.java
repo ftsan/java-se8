@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * Created by futeshi on 2015/11/01.
+ * Created by ftsan on 2015/11/01.
  */
 public class Q18 {
     public static <T, U> Function<T, U> unchecked(UncheckedFunction<T, U> f) {

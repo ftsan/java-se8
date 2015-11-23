@@ -14,7 +14,7 @@ import java.io.FileInputStream;
 import java.util.function.BiFunction;
 
 /**
- * Created by futeshi on 2015/10/27.
+ * Created by ftsan on 2015/10/27.
  */
 public class Q6 extends Application{
     public static <T> Image transform(Image in, BiFunction<Color, T, Color> f, T arg) {

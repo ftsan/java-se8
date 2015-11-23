@@ -3,7 +3,7 @@ package java8code.ch1.practice;
 import java.util.Arrays;
 
 /**
- * Created by futeshi on 2015/10/21.
+ * Created by ftsan on 2015/10/21.
  */
 public class Q1 {
     public static void main(String[] args) {

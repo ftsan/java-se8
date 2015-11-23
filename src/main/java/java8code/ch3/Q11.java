@@ -16,7 +16,7 @@ import java.util.function.UnaryOperator;
 import static java8code.ch3.Q11.ColorTransformer.*;
 
 /**
- * Created by futeshi on 2015/10/30.
+ * Created by ftsan on 2015/10/30.
  */
 public class Q11 extends Application {
     public static Image transform(Image in, ColorTransformer transformer) {

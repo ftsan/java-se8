@@ -9,7 +9,7 @@ import java.util.logging.StreamHandler;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/27.
+ * Created by ftsan on 2015/10/27.
  */
 public class Q1 {
     private Logger logger;

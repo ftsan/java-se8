@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/25.
+ * Created by ftsan on 2015/10/25.
  */
 public class Q9 {
     public static <T> List<T> toFlatList(Stream<List<T>> stream) {

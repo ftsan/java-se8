@@ -1,7 +1,7 @@
 package java8code.ch1.practice;
 
 /**
- * Created by futeshi on 2015/10/21.
+ * Created by ftsan on 2015/10/21.
  */
 public class Q7 {
     public static void main(String[] args) {

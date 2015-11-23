@@ -19,7 +19,7 @@ import java.util.function.UnaryOperator;
 import static java8code.ch3.Q15.ColorTransformer.transformIgnoreXY;
 
 /**
- * Created by futeshi on 2015/10/30.
+ * Created by ftsan on 2015/10/30.
  */
 public class Q15 extends Application {
     public static class LatentImage {

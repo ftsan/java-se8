@@ -12,7 +12,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * Created by futeshi on 2015/10/27.
+ * Created by ftsan on 2015/10/27.
  */
 public class Q7 {
     public static void main(String[] args) throws IOException {

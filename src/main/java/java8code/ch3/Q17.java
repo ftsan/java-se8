@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 
 /**
- * Created by futeshi on 2015/11/01.
+ * Created by ftsan on 2015/11/01.
  */
 public class Q17 {
     public static void doInParallelAsync(Runnable first, Runnable second, Consumer<Throwable> handler) {

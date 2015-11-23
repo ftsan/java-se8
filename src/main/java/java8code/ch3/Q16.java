@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * Created by futeshi on 2015/10/31.
+ * Created by ftsan on 2015/10/31.
  */
 public class Q16 {
     public static void main(String[] args) {

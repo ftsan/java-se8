@@ -1,7 +1,6 @@
 package java8code.ch3;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
 /**
- * Created by futeshi on 2015/10/28.
+ * Created by ftsan on 2015/10/28.
  */
 public class Q7Test {
     List<String> words;

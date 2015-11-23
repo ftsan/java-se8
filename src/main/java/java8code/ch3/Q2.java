@@ -3,7 +3,7 @@ package java8code.ch3;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by futeshi on 2015/10/27.
+ * Created by ftsan on 2015/10/27.
  */
 public class Q2 {
     public static void main(String[] args) {

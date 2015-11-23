@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/23.
+ * Created by ftsan on 2015/10/23.
  */
 public class Test {
     public static void main(String[] args) throws IOException {
@@ -56,5 +56,6 @@ public class Test {
         System.out.println(Stream.of(Locale.getAvailableLocales())
                 .collect(groupingBy(Function.<Locale>identity(),
                         reducing("", Locale::getCountry, (s, t) -> s.length() == 0 ? t : s + ", " + t))));
+        Stream.iterate(1000, i -> i + 1).limit(10).flatMap(i -> Stream.of(String.valueOf(i).split(""))).forEach(System.out::println);
     }
 }

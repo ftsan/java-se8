@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Created by futeshi on 2015/10/29.
+ * Created by ftsan on 2015/10/29.
  */
 public class Q9 {
     public static void main(String[] args) {

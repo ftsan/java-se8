@@ -14,7 +14,7 @@ import java.io.FileInputStream;
 import java.util.function.UnaryOperator;
 
 /**
- * Created by futeshi on 2015/10/29.
+ * Created by ftsan on 2015/10/29.
  */
 public class Q10 extends Application {
     public static Image transform(Image in, UnaryOperator<Color> f) {

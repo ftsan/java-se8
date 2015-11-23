@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/26.
+ * Created by ftsan on 2015/10/26.
  */
 public class Q11 {
     public static void main(String[] args) {

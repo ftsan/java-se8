@@ -1,7 +1,7 @@
 package java8code.ch1.practice;
 
 /**
- * Created by futeshi on 2015/10/22.
+ * Created by ftsan on 2015/10/22.
  */
 public class Q11 {
     interface i {

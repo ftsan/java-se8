@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 
 /**
- * Created by futeshi on 2015/10/26.
+ * Created by ftsan on 2015/10/26.
  */
 public class Q13 {
     public static void main(String[] args) throws IOException {

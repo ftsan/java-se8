@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
- * Created by futeshi on 2015/10/22.
+ * Created by ftsan on 2015/10/22.
  */
 public class Q9 {
     interface Collection2<T> extends Collection<T> {

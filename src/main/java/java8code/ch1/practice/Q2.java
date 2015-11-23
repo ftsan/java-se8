@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * Created by futeshi on 2015/10/21.
+ * Created by ftsan on 2015/10/21.
  */
 public class Q2 {
     public static void main(String[] args) {

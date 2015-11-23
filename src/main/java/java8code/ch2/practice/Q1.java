@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * Created by futeshi on 2015/10/23.
+ * Created by ftsan on 2015/10/23.
  */
 public class Q1 {
     static int count = 0;
